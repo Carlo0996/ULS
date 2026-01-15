@@ -1,0 +1,62 @@
+*{
+	margin:0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+nav{
+	width: 100%;
+	height: 75px;
+	line-height: 75px;
+	padding: 0px 100px;
+	position: fixed;
+	background-color: #000036;
+}
+nav .logo p{
+	font-size:30px;
+	font-weight:bold;
+	float:left;
+	color:white;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+	cursor:pointer;
+}
+nav ul{
+	float: right;
+}
+nav li{
+	display:inline-block;
+	list-style:none;
+}
+nav li a{
+	font-size:18px;
+	text-transform:uppercase;
+	padding: 0px 30px;
+	color: white;
+	text-decoration: none;
+}
+nav li a:hover{
+	color: blue;
+	transition: all 0.4s ease 0s;
+}
+h2 {
+	font-family: Georgia;
+	color: white; 
+	font-size: 50px;
+}
+p1{
+	font-family: Georgia;
+	color: white; 
+	font-size: 30px;
+}
+section {
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    background-size: cover;
+    background-position: center center; 
+}
+#loc {
+    background-image: url('https://elements-video-cover-images-0.imgix.net/files/210658472/World+Map+Preview+590x332.jpg?auto=compress&crop=edges&fit=crop&fm=jpeg&h=630&w=1200&s=88cf82536f34149ba4e704f827d773bc');
+}
